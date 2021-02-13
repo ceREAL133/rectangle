@@ -1,0 +1,21 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+  "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Test</title>
+ </head>
+ <body> 
+  <script type="text/javascript">
+    //this code works
+    let key = 30;
+    
+    function addKey(){
+      window.localStorage.setItem('value', key)
+    }
+    
+    window.onload = addKey();
+    
+  </script>
+ </body>
+</html>
