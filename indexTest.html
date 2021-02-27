@@ -1,21 +1,21 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-  "http://www.w3.org/TR/html4/strict.dtd">
-<html>
- <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <title>Test</title>
- </head>
- <body> 
-  <script type="text/javascript">
-    //this code works
-    let key = 30;
-    
-    function addKey(){
-      window.localStorage.setItem('value', key)
-    }
-    
-    window.onload = addKey();
-    
-  </script>
- </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h3>Chose a humber in range from 0 to 99 <br> and subtract numbers, which create your number (if its 54, you should substract 5 and 4 of it)
+        <br>find this number in table below and keep in mind the symbol near it
+        <br>than click on magic square. <br>He will show the symbol you've chosed
+    </h3>
+    <div class="square" onclick="showKey()"></div>
+    <h1>
+        <p id="showKeyTrue"></p>
+    </h1>
+    <script src="code.js"></script>
+</body>
 </html>
