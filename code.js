@@ -1,10 +1,10 @@
 let showKeyTrue = document.getElementById('showKeyTrue')
 
 function keyMaker() {
-    var text = "";
-    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234key6789%^&";
+    let text = "";
+    let possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234key6789%^&";
 
-    for (var i = 0; i < 1; i++)
+    for (let i = 0; i < 1; i++)
       text += possible.charAt(Math.floor(Math.random() * possible.length));
   
     return text;
@@ -15,7 +15,7 @@ let key = keyMaker();
 let arr = [];
     min = 0;
     max = 99;
-var possibleSym = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234key6789%^&";    
+let possibleSym = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234key6789%^&";    
   
 for (let i = 0; i < 11; i++) {  //vertical quantity
     arr[i] = [];
